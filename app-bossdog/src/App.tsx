@@ -1,13 +1,9 @@
-import Logo from './components/Logo'
-import Button from './components/Button'
+import Header from './components/Header'
 import './styles/main.css'
 
 function App() {
   return(
-      <>
-          <Logo />
-          <Button />
-      </>
+          <Header />
   )
 }
 
