@@ -6,11 +6,13 @@ import './header.css'
 const Header = () => (
     <header>
         <Logo />
-        <Action href="#nft" content="NFT" />
-        <Action href="#token" content="token" />
-        <Action href="#tean" content="team" />
-        <Action href="#whitepaper" content="whitepaper" />
-        <Button />
+        <nav>
+            <Action href="#nft" content="NFT" />
+            <Action href="#token" content="token" />
+            <Action href="#tean" content="team" />
+            <Action href="#whitepaper" content="whitepaper" className="highlight"/>
+            <Button />
+        </nav>
     </header>
 )
 
