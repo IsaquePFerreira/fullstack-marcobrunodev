@@ -1,0 +1,12 @@
+.menu-icon {
+    width: 40px;
+    height: 8px;
+    background-color: #FFC825;
+}
+
+.menu-icon::after {
+    content: '';
+    width: 40px;
+    height: 8px;
+    background-color: #FFC825;
+}

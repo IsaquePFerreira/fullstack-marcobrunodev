@@ -1,6 +1,7 @@
 import Button from '../Button'
 import Action from '../Action'
 import './menu.css'
+import MenuIcon from '../MenuIcon'
 
 const Menu = () => (
     <nav className="menu">
@@ -11,6 +12,7 @@ const Menu = () => (
             <Action href="#whitepaper" content="whitepaper" className="highlight"/>
         </div>
         <Button />
+        <MenuIcon />
     </nav>
 )
 
